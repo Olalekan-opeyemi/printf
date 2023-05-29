@@ -1,6 +1,6 @@
 ## **Our Printf Function.**
 
-Hello there, and welcome to our custom C 'printf' function repository! This project is a collaborative effort between [Olalekan Opeyemi](https://github.com/Olalekan-opeyemi) and  [Chukwu Miracle](https://github.com/username). WE aim to create our own implementation of the printf function from scratch.
+Hello there, and welcome to our custom C 'printf' function repository! This project is a collaborative effort between [Olalekan Opeyemi](https://github.com/Olalekan-opeyemi) and  [Chukwu Miracle](https://github.com/Mimifresh). WE aim to create our own implementation of the printf function from scratch.
 
 
 ### **About the 'printf' Function.**
@@ -42,6 +42,6 @@ That's it!!
 ## **Contributors.**
 
  - [Olalekan Opeyemi](https://github.com/Olalekan-opeyemi)
- - [Chukwu Miracle](https://github.com/username)
+ - [Chukwu Miracle](https://github.com/Mimifresh)
 
 
