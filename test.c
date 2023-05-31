@@ -21,7 +21,7 @@ int main(void)
      printf("return value is %d \n", m);
         _printf("Length:[%d, %i]\n", len, len);
 	_printf("Len:[%d]\n", len2);
-
+	_printf("%b\n", 4);
  return(0);
 
 }

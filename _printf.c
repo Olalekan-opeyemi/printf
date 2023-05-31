@@ -39,6 +39,11 @@ int _printf(const char *format, ...)
 			int_specifier(va_arg(prints, int));
 			k++;
 		}
+		else if (format[k + 1] == 'b')
+		{
+			custombinary(va_arg(prints, unsigned int));
+			k++;
+		}
 		r_string += 1;
 	}
 	va_end(prints);
