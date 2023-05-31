@@ -3,7 +3,7 @@
 
 /**
 * put_cha - prints character to std out put.
-* @p: character to be printed
+* @c: character to be printed
 * Return: write
 */
 
