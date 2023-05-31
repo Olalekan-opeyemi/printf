@@ -1,4 +1,4 @@
-#include "main.h"
+
 #include <unistd.h>
 
 /**
@@ -6,7 +6,8 @@
 * @p: character to be printed
 * Return: write
 */
-int put_cha(char p)
+
+int put_cha(char c)
 {
-	return (write(1, &p, 1));
+	return (write(1, &c, 1));
 }

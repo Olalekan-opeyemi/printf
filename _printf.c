@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdarg.h>
-
 /**
 * _printf - prints out formated output.
 * @...: variadic function
@@ -33,6 +32,11 @@ int _printf(const char *format, ...)
 		else if (format[k + 1] == '%')
 		{
 			put_cha(format[k]);
+			k++;
+		}
+		else if (format[k + 1] == 'd' || (format[k + 1] == 'i'))
+		{
+			int_specifier(va_arg(prints, int));
 			k++;
 		}
 		r_string += 1;
